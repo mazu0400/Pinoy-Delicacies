@@ -80,70 +80,70 @@ const PRODUCTS = [
   },
   {
     id: "ens_ube_half",
-    name: "Ensaymada <br>Ube ½ box",
+    name: "Ensaymada Ube ½ box",
     price: 14,
     img: "Image/Tuotteet/Image/Ube.jpg",
     category: "ensaymada",
   },
   {
     id: "ens_ube_full",
-    name: "Ensaymada <br>Ube 1 box",
+    name: "Ensaymada Ube 1 box",
     price: 28,
     img: "Image/Tuotteet/Image/Ube.jpg",
     category: "ensaymada",
   },
   {
     id: "ens_caramel_half",
-    name: "Ensaymada<br> Caramel ½ box",
+    name: "Ensaymada Caramel ½ box",
     price: 13,
     img: "Image/Tuotteet/Image/caramel.jpg",
     category: "ensaymada",
   },
   {
     id: "ens_caramel_full",
-    name: "Ensaymada <br>Caramel 1 box",
+    name: "Ensaymada Caramel 1 box",
     price: 25,
     img: "Image/Tuotteet/Image/caramel.jpg",
     category: "ensaymada",
   },
   {
     id: "ens_cream_half",
-    name: "Ensaymada <br> Cream Cheese ½ box",
+    name: "Ensaymada Cream Cheese ½ box",
     price: 13,
     img: "Image/Tuotteet/Image/cream.jpg",
     category: "ensaymada",
   },
   {
     id: "ens_cream_full",
-    name: "Ensaymada <br> Cream Cheese 1 box",
+    name: "Ensaymada Cream Cheese 1 box",
     price: 25,
     img: "Image/Tuotteet/Image/cream.jpg",
     category: "ensaymada",
   },
   {
     id: "ens_classic_half",
-    name: "Ensaymada <br>Classic ½ box",
+    name: "Ensaymada Classic ½ box",
     price: 13,
     img: "Image/Tuotteet/Image/classic.jpg",
     category: "ensaymada",
   },
   {
     id: "ens_classic_full",
-    name: "Ensaymada <br>Classic 1 box",
+    name: "Ensaymada Classic 1 box",
     price: 25,
     img: "Image/Tuotteet/Image/classic.jpg",
     category: "ensaymada",
   },
   {
     id: "ens_almond-full",
-    name: "Ensaymada <br>Almond 1 box",
+    name: "Ensaymada Almond 1 box",
     price: 25,
     img: "Image/Tuotteet/Image/almond ensaymada.jpeg",
     category: "ensaymada",
   },
     {
     id: "ens_almond-half",
-    name: "Ensaymada <br>Almond ½ box",
+    name: "Ensaymada Almond ½ box",
     price: 13,
     img: "Image/Tuotteet/Image/almond ensaymada.jpeg",
     category: "ensaymada",
@@ -152,56 +152,56 @@ const PRODUCTS = [
   // HOPIA
   {
     id: "hop_assorted_half",
-    name: "Hopia <br>Assorted ½ box",
+    name: "Hopia Assorted ½ box",
     price: 12.5,
     img: "Image/Tuotteet/Image/hopia-assorted-puolikas.jpeg",
     category: "hopia",
   },
   {
     id: "hop_assorted_full",
-    name: "Hopia <br>Assorted 1 box",
+    name: "Hopia Assorted 1 box",
     price: 25,
     img: "Image/Tuotteet/Image/hopia-assorted-box.jpeg",
     category: "hopia",
   },
   {
     id: "hop_baboy_half",
-    name: "Hopia <br>Baboy ½ box",
+    name: "Hopia Baboy ½ box",
     price: 12.5,
     img: "Image/Tuotteet/Image/hopi.baboy.jpg",
     category: "hopia",
   },
   {
     id: "hop_baboy_full",
-    name: "Hopia <br>Baboy 1 box",
+    name: "Hopia Baboy 1 box",
     price: 25,
     img: "Image/Tuotteet/Image/hopi.baboy.jpg",
     category: "hopia",
   },
   {
     id: "hop_ube_half",
-    name: "Hopia <br>Ube ½ box",
+    name: "Hopia Ube ½ box",
     price: 14,
     img: "Image/Tuotteet/Image/puolikas-hopia-ube.jpeg",
     category: "hopia",
   },
   {
     id: "hop_ube_full",
-    name: "Hopia <br>Ube 1 box",
+    name: "Hopia Ube 1 box",
     price: 28,
     img: "Image/Tuotteet/Image/assor.hopia.jpg",
     category: "hopia",
   },
   {
     id: "hop_munggo_half",
-    name: "Hopia <br>Munggo ½ box",
+    name: "Hopia Munggo ½ box",
     price: 12.5,
     img: "Image/Tuotteet/Image/puolikas-hopia-munggo.jpeg",
     category: "hopia",
   },
   {
     id: "hop_munggo_full",
-    name: "Hopia <br>Munggo 1 box",
+    name: "Hopia Munggo 1 box",
     price: 25,
     img: "Image/Tuotteet/Image/hopia-munggo.jpeg",
     category: "hopia",
@@ -231,14 +231,14 @@ const PRODUCTS = [
   },
   {
     id: "cheesy_mamon",
-    name: "Cheesy Mamon <br>1 box",
+    name: "Cheesy Mamon 1 box",
     price: 25,
     img: "Image/Tuotteet/Image/chrrsy-mamon.jpeg",
     category: "other",
   },
   {
     id: "cheesy_mamon",
-    name: "Cheesy Mamon <br>½ box",
+    name: "Cheesy Mamon ½ box",
     price: 13,
     img: "Image/Tuotteet/Image/chrrsy-mamon.jpeg",
     category: "other",
@@ -273,7 +273,7 @@ const PRODUCTS = [
   },
   {
     id: "empanada_full_pork",
-    name: "Empanada Pork <br> ½ box",
+    name: "Empanada Pork ½ box",
     price: 13,
     img: "Image/Tuotteet/Image/empanada_full.JPG",
     category: "other",
@@ -287,7 +287,7 @@ const PRODUCTS = [
   },
   {
     id: "empanada_half",
-    name: " Empanada Chicken <br> ½ box",
+    name: " Empanada Chicken ½ box",
     price: 13,
     img: "Image/Tuotteet/Image/empanada_full.JPG",
     category: "other",
@@ -389,21 +389,21 @@ const PRODUCTS = [
   // SPANISH BREAD
   {
     id: "span_classic",
-    name: "Spanish Bread <br>Classic",
+    name: "Spanish Bread Classic",
     price: 10,
     img: "Image/Tuotteet/Image/spanish.bread.classic.jpg",
     category: "spanish",
   },
   {
     id: "span_munggo",
-    name: "Spanish Bread <br>Munggo",
+    name: "Spanish Bread Munggo",
     price: 10,
     img: "Image/Tuotteet/Image/spanish.bread.munggo.jpg",
     category: "spanish",
   },
   {
     id: "span_ube",
-    name: "Spanish Bread <br>Ube",
+    name: "Spanish Bread Ube",
     price: 12,
     img: "Image/Tuotteet/Image/spanish.ube.jpg",
     category: "spanish",
@@ -611,18 +611,27 @@ orderForm.addEventListener("submit", async (e) => {
   const email = document.getElementById("customerEmail").value.trim();
   const phone = document.getElementById("customerPhone").value.trim();
   const address = document.getElementById("customerAddress").value.trim();
- 
+
   const city = document.getElementById("customerCity").value.trim();
-  const deliveryMethod = document.getElementById("deliveryMethod").value;
+  const deliveryMethodValue = document.getElementById("deliveryMethod").value;
   const deliveryTime = deliveryTimeInput.value;
-const message = document.getElementById("orderMessage").value.trim();
+  const message = document.getElementById("orderMessage").value.trim();
+
+  // Pakollinen kaupunki, jos toimitus
+  if (deliveryMethodValue === "delivery") {
+    if (!citySelect.value || citySelect.value === "Valitse" || citySelect.value === "Select") {
+      alert("Valitse toimituskaupunki!");
+      return;
+    }
+  }
+
   if (
     !name ||
     !phone ||
     !email ||
     !address ||
     !city ||
-    !deliveryMethod ||
+    !deliveryMethodValue ||
     !deliveryTime
   )
     return alert("Please fill in all fields.");
@@ -632,23 +641,23 @@ const message = document.getElementById("orderMessage").value.trim();
       "Please accept the processing of your data before submitting the order."
     );
 
-let total = cart.reduce((sum, c) => sum + c.price * c.qty, 0);
-let deliveryPrice = 0;
-if (document.getElementById("deliveryMethod").value === "delivery") {
-  const selected = citySelect.options[citySelect.selectedIndex];
-  deliveryPrice = parseFloat(selected?.getAttribute("data-price")) || 0;
-  total += deliveryPrice;
-}
+  let total = cart.reduce((sum, c) => sum + c.price * c.qty, 0);
+  let deliveryPrice = 0;
+  if (deliveryMethodValue === "delivery") {
+    const selected = citySelect.options[citySelect.selectedIndex];
+    deliveryPrice = parseFloat(selected?.getAttribute("data-price")) || 0;
+    total += deliveryPrice;
+  }
 
-const order = {
-  created: new Date().toISOString(),
-  customer: { name, phone, email, address, city },  // Tämä on asiakkaan antama kaupunki
-  delivery: { method: deliveryMethod, time: deliveryTime, city: citySelect.value }, // Tämä on valittu toimituskaupunki
-  items: cart.map((c) => ({ product: c.name, qty: c.qty, unit: c.price })),
-  total: total,
-  deliveryPrice: deliveryPrice,
-  message: message // Tämä on asiakkaan viesti
-};
+  const order = {
+    created: new Date().toISOString(),
+    customer: { name, phone, email, address, city },
+    delivery: { method: deliveryMethodValue, time: deliveryTime, city: citySelect.value },
+    items: cart.map((c) => ({ product: c.name, qty: c.qty, unit: c.price })),
+    total: total,
+    deliveryPrice: deliveryPrice,
+    message: message
+  };
 
   try {
     await addDoc(collection(db, "orders"), order);
