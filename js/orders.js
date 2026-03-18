@@ -380,7 +380,7 @@ const PRODUCTS = [
   },
     {
     id: "I tub leche flan",
-    name: "I tub leche flan 1 box",
+    name: "Leche flan 1 box",
     price: 12,
     img: "Image/Tuotteet/Image/i-tube-fan.jpeg",
     category: "other",
