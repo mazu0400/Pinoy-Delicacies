@@ -5,6 +5,7 @@ const translations = {
     products: "Products",
     about: "About Us",
     cart: "Cart",
+    payMethod: "You can pay by MobilePay, bank transfer, or cash:<br>MobilePay: 0400805705<br>Bank account: FI 25 1107 3500 1185 38",
     heroTitle: "Authentic Filipino treats from Finland",
     heroSubtitle: "Products prepared according to local recipes",
     heroText: "Choose your favorites and order easily for delivery or pickup.",
@@ -118,6 +119,7 @@ For deliveries to the rest of Finland via Matkahuolto or in another way, please 
     products: "Tuotteet",
     about: "Tietoja meistä",
     cart: "Ostoskori",
+    payMethod: "Voit maksaa tilauksen Mobilepayllä, Tilille tai Käteisellä:<br>Mobilepay: 0400805705<br>Tilinumero: FI 25 1107 3500 1185 38",
     heroTitle: "Aitoja filippiiniläisiä herkkuja Suomesta",
     heroSubtitle: "Valmistettu perinteisten reseptien mukaan",
     heroText:
@@ -237,6 +239,7 @@ Muualle Suomeen Matkahuollon kautta tai muulla tavalla, ota yhteyttä puhelimits
     products: "Mga Produkto",
     about: "Tungkol sa Amin",
     cart: "Cart",
+    payMethod: "Maaari kang magbayad sa pamamagitan ng Mobilepay, bank transfer, o cash:<br>Mobilepay: 0400805705<br>Bank account: FI 25 1107 3500 1185 38",
     heroTitle: "Mga tunay na Filipino treats mula sa Finland",
     heroSubtitle: "Mga produktong inihanda ayon sa lokal na resipe",
     heroText:
@@ -357,7 +360,11 @@ function setLanguage(lang) {
   document.querySelectorAll("[data-key]").forEach((el) => {
     const key = el.getAttribute("data-key");
     if (translations[lang] && translations[lang][key]) {
-      el.textContent = translations[lang][key];
+      if (key === "payMethod") {
+        el.innerHTML = translations[lang][key];
+      } else {
+        el.textContent = translations[lang][key];
+      }
     }
   });
 

@@ -96,6 +96,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 header {
   background: var(--color-header-bg);
   color: var(--color-text);
