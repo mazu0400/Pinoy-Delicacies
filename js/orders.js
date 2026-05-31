@@ -179,6 +179,13 @@ const PRODUCTS = [
     category: "hopia",
   },
   {
+    id: "hop_baboy_mini_bites",
+    name: "Hopia Baboy Mini Bites 1 box (9 pcs)",
+    price: 5,
+    img: "Image/Tuotteet/Image/hopi.baboy-mini-bites.jpg",
+    category: "hopia",
+  },
+  {
     id: "hop_ube_half",
     name: "Hopia Ube ½ box (10 pcs)",
     price: 14,
@@ -206,6 +213,7 @@ const PRODUCTS = [
     img: "Image/Tuotteet/Image/hopia-munggo.jpeg",
     category: "hopia",
   },
+  
 
   // OTHER
   {
@@ -376,20 +384,6 @@ const PRODUCTS = [
     name: "Chicharon 3 pcs",
     price: 20,
     img: "Image/Tuotteet/Image/chicharon.jpeg",
-    category: "other",
-  },
-  {
-    id: "siopao",
-    name: "siopao 4 pcs",
-    price: 10,
-    img: "Image/Tuotteet/Image/siopao.jpeg",
-    category: "other",
-  },
-  {
-    id: "siopao",
-    name: "siopao 1 pcs",
-    price: 2.5,
-    img: "Image/Tuotteet/Image/siopao.jpeg",
     category: "other",
   },
     {
