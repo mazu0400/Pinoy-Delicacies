@@ -182,7 +182,7 @@ const PRODUCTS = [
     id: "hop_baboy_mini_bites",
     name: "Hopia Baboy Mini Bites 1 box (9 pcs)",
     price: 5,
-    img: "Image/Tuotteet/Image/hopi.baboy-mini-bites.jpg",
+    img: "Image/Tuotteet/Image/hopia.baboy.mini.bites.jpeg",
     category: "hopia",
   },
   {
