@@ -338,6 +338,13 @@ const PRODUCTS = [
   },
   {
     id: "maja_blanca",
+    name: "Maja Blanca medium",
+    price: 20,
+    img: "Image/Tuotteet/Image/maja.blanka.medium.jpeg",
+    category: "other",
+  },
+  {
+    id: "maja_blanca",
     name: "Maja Blanca Small",
     price: 10,
     img: "Image/Tuotteet/Image/maja-blanca-small.jpeg",
