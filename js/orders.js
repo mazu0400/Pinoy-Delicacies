@@ -275,7 +275,7 @@ const PRODUCTS = [
   {
     id: "cassava_m",
     name: "Cassava Medium",
-    price: 15,
+    price: 20,
     img: "Image/Tuotteet/Image/cassava-medium.jpeg",
     category: "other",
   },
